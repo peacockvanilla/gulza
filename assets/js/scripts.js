@@ -26,9 +26,15 @@ Version      : 1.0
 
 			$(window).scroll(function() {
 			  if ($(this).scrollTop() > 100) {
-				$('.menu-top').addClass('menu-shrink');
+                  $('.menu-top').addClass('menu-shrink');
+                  var myImg = document.getElementById('Slogo');
+                  myImg.style.height = '50px';
+                  myImg.style.width = '50px';
 			  } else {
-				$('.menu-top').removeClass('menu-shrink');
+                  $('.menu-top').removeClass('menu-shrink');
+                  //var myImg = document.getElementById('Slogo');
+                  //myImg.style.height = '50px';
+                  //myImg.style.width = '50px';
 			  }
 			});
 			
@@ -101,20 +107,7 @@ Version      : 1.0
 		/*END GOOGLE MAP*/
 	}); 	
 	
-	/* START PARALLAX JS */
-	(function () {
-
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		 
-		} else {
-			$(window).stellar({
-				horizontalScrolling: false,
-				responsive: true
-			});
-		}
-
-	}());
-	/* END PARALLAX JS  */	
+	
 	
 	/*START WOW ANIMATION JS*/
 	  new WOW().init();	
