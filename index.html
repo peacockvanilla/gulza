@@ -29,10 +29,14 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-        <!--knob-->
-        
-        
-
+        <!--timeline-->
+        <link href="assets/timeline/css/reset.css" rel="stylesheet" />
+        <link href="assets/timeline/css/style.css" rel="stylesheet" />
+        <script src="assets/timeline/js/modernizr.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!--<link href="assets/css/timeline/vertical-timeline.css" rel="stylesheet" type="text/css" />-->
+        <!--flipclock-->
+        <link href="assets/flipclock/flipclock.css" rel="stylesheet" />
 	</head>
 	
     <body data-spy="scroll" data-offset="80">
@@ -55,7 +59,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="index.html" class="navbar-brand"><img src="assets/img/Slogo.png" id="Slogo" alt="logo"></a>
+					<a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" id="Slogo" alt="logo"></a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<nav>
@@ -82,17 +86,35 @@
 			  <ul class="slides">
 				<li style="background: url('assets/img/bg/Stslide1.png') no-repeat center center;">
 					<div class="slider-info">
-						<h1>STRUCTURE</h1>
-						<p>Building a Cryptocurrency Infrastructure.</p>
-						<a href="#service" class="btn btn-default btn-home-bg page-scroll">Learn More</a>					
-					</div>
+						<h1 style="text-align:left;">STRUCTURE</h1>
+						<p style="text-align:left;">Building a Cryptocurrency Infrastructure.</p>
+                        
+                            <div class="col-sm-2">
+                                <a href="#service" class="btn btn-default btn-block btn-home-bg page-scroll">WhitePaper</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#service" class="btn btn-default btn-block btn-home-bg page-scroll">Register</a>
+                            </div>
+                       
+                    </div>
 				</li>
                   
             <li style="background: url('assets/img/bg/StslideDemo3.png') no-repeat center center;">
                 <div class="slider-info">
-                    <h1>INVEST.TRADE.EARN</h1>
-                    <p>Manage Your Portfolio with STRU</p>
-                    <a href="#service" class="btn btn-default btn-home-bg page-scroll">Learn More</a>
+                    <h1>INVEST. TRADE.  MANAGE.</h1>
+                    <p></p>
+                    <div class="center">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <a href="#service" class="btn btn-default btn-block btn-home-bg page-scroll">WhitePaper</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="#service" class="btn btn-default btn-block btn-home-bg page-scroll">Register</a>
+                            </div>
+                        </div>
+                        <!--<a href="#service" class="btn btn-default  btn-home-bg page-scroll">WhitePaper</a>
+                        <a href="#service" class="btn btn-default  btn-home-bg page-scroll">Register</a>-->
+                    </div>
                 </div>
             </li>
 							
@@ -102,107 +124,7 @@
 		</section>
 		<!-- END  HOME DESIGN -->
 		
-		<!-- START SERVICE -->
-		<section id="service" class="our_service">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="section-title">
-							<h2>Our faster service</h2>
-							<span></span>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p>
-						</div>
-					</div><!--- END COL -->
-				</div><!--- END ROW -->
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<i class="fa fa-tablet"></i>
-							</div>
-							<div class="service-content">
-								<h3>App development</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum porta blandit. Fusce auctor risus turpis, et sodales sapien interdum at. Aenean sodales sed nibh ac tincidunt. Maecenas. </p>
-							</div>
-							<div class="read">
-								<a href="#">More</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<i class="fa fa-umbrella"></i>
-							</div>
-							<div class="service-content">
-								<h3>online marketing</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum porta blandit. Fusce auctor risus turpis, et sodales sapien interdum at. Aenean sodales sed nibh ac tincidunt. Maecenas. </p>
-							</div>
-							<div class="read">
-								<a href="#">More</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<i class="fa fa-code"></i>
-							</div>
-							<div class="service-content">
-								<h3>Digital Experience</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum porta blandit. Fusce auctor risus turpis, et sodales sapien interdum at. Aenean sodales sed nibh ac tincidunt. Maecenas. </p>
-							</div>
-							<div class="read">
-								<a href="#">More</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<i class="fa fa-building-o"></i>
-							</div>
-							<div class="service-content">
-								<h3>Strategy & Consulting</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum porta blandit. Fusce auctor risus turpis, et sodales sapien interdum at. Aenean sodales sed nibh ac tincidunt. Maecenas. </p>
-							</div>
-							<div class="read">
-								<a href="#">More</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<i class="fa fa-briefcase"></i>
-							</div>
-							<div class="service-content">
-								<h3>Branding</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum porta blandit. Fusce auctor risus turpis, et sodales sapien interdum at. Aenean sodales sed nibh ac tincidunt. Maecenas. </p>
-							</div>
-							<div class="read">
-								<a href="#">More</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<i class="fa fa-paper-plane-o"></i>
-							</div>
-							<div class="service-content">
-								<h3>Social Media</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum porta blandit. Fusce auctor risus turpis, et sodales sapien interdum at. Aenean sodales sed nibh ac tincidunt. Maecenas. </p>
-							</div>
-							<div class="read">
-								<a href="#">More</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END SERVICE -->
+		
 		
 		<!-- PROMOTION -->
 		<section class="buy_now">
@@ -210,222 +132,432 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="section-title">
-                            <h2>Countdown to ICO</h2>
+                            <h2 style="color:white;">Countdown to ICO</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="countdown">
+                    <div class="myCLock">
 
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <!--<div class="col-md-6 col-sm-6">
                   <img src="assets/img/Coin details with token image.png" alt="" />
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <img src="assets/img/Round details with token image.png" alt="" />
+                </div>-->
+                    <div class="table">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/img/Coin details with token image.png" alt="" />
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/img/Round details with token image.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
+
+               
             </div>
         </section>
 		<!-- END PROMOTION -->
-		
-		<!-- START RECENT PROJECTS -->
-		<section id="portfolio" class="our_portfolio section-padding">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="section-title">
-							<h2>Recent projects</h2>
-							<span></span>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p>
-						</div>
-					</div><!--- END COL -->
-				</div><!--- END ROW -->
-				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
-						<div class="box">
-							<img src="assets/img/Products/1-Structure mobile app.png" alt="">
-							<div class="box-content">
-								<h3 class="title">portfolio title</h3>
-								<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View Project</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
-						<div class="box">
-							<img src="assets/img/Products/2-Structure Card.png" alt="">
-							<div class="box-content">
-								<h3 class="title">portfolio title</h3>
-								<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View Project</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
-						<div class="box">
-							<img src="assets/img/Products/3-Structure Exchange.png" alt="">
-							<div class="box-content">
-								<h3 class="title">portfolio title</h3>
-								<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View Project</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
-						<div class="box">
-							<img src="assets/img/Products/4-Structure Marketplace.png" alt="">
-							<div class="box-content">
-								<h3 class="title">portfolio title</h3>
-								<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View Project</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
-						<div class="box">
-							<img src="assets/img/Products/5-Structure portfolio.png" alt="">
-							<div class="box-content">
-								<h3 class="title">portfolio title</h3>
-								<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View Project</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding">
-						<div class="box">
-							<img src="assets/img/Products/6-Structure-Bot pic.png" alt="">
-							<div class="box-content">
-								<h3 class="title">portfolio title</h3>
-								<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View Project</a>
-							</div>
-						</div>
-					</div><!--- END COL -->
-					<!-- Overlay Modal  -->
-                    <div class="modal fade" id="projectModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title">Project Overview</h4>
+        <section id="sample" class="cd-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-title">
+                            <h2>Roadmap</h2>
+
+                        </div>
+                    </div><!--- END COL -->
+                </div><!--- END ROW -->  
+            </div>
+        </section>
+        <!--TIMELINE-->
+        <section id="cd-timeline" class="cd-container">
+          
+                
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/timeline/img/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            <h2>Title of section 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                            <a href="#0" class="cd-read-more">Read more</a>
+                            <span class="cd-date">Jan 14</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="assets/timeline/img/cd-icon-movie.svg" alt="Movie">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            <h2>Title of section 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+                            <a href="#0" class="cd-read-more">Read more</a>
+                            <span class="cd-date">Jan 18</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/timeline/img/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            <h2>Title of section 3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                            <a href="#0" class="cd-read-more">Read more</a>
+                            <span class="cd-date">Jan 24</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location">
+                            <img src="assets/timeline/img/cd-icon-location.svg" alt="Location">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            <h2>Title of section 4</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                            <a href="#0" class="cd-read-more">Read more</a>
+                            <span class="cd-date">Feb 14</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location">
+                            <img src="assets/timeline/img/cd-icon-location.svg" alt="Location">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            <h2>Title of section 5</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                            <a href="#0" class="cd-read-more">Read more</a>
+                            <span class="cd-date">Feb 18</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="assets/timeline/img/cd-icon-movie.svg" alt="Movie">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            <h2>Final Section</h2>
+                            <p>This is the content of the last section</p>
+                            <span class="cd-date">Feb 26</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+                
+            
+            </section> <!-- cd-timeline -->
+
+            <!--END TIMELINE-->
+
+
+
+            <!-- START SERVICE -->
+            <section id="service" class="our_service">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="section-title">
+                                <h2>Our features &amp; service</h2>
+                                <span></span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p>
+                            </div>
+                        </div><!--- END COL -->
+                    </div><!--- END ROW -->
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="serviceBox">
+                                <div class="service-icon">
+                                    <i class="fa fa-bank"></i>
                                 </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/portfolio/6.jpg" class="img-responsive" alt=""/>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor massa sed velit egestas vulputate. Morbi turpis tellus, porta in cursus at, finibus vitae dui. Nam mollis quam a sem iaculis euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac pharetra justo, vel dapibus tortor. Etiam laoreet imperdiet varius.</p>
-                                     <ul class="list-unstyled project-list" >
-                                        <li><label>Client : </label> Themeforest</li>
-                                        <li><label>Category :</label> Web Design</li>
-                                        <li><label>Date : </label> 12 September 2016</li>
-                                        <li><label>Project Url : </label> <a href="#">www.themeforest.net</a></li>
-                                    </ul>
-                              </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-				</div><!--- END ROW -->
-				<div class="row">
-					<div class="portfolio_btn text-center">
-						<a href="#" class="btn btn-default btn-promotion-bg">View More</a>
-					</div>
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END RECENT PROJECTS -->
+                                <div class="service-content">
+                                    <h3>Trading</h3>
+                                    <p>After the ICO, we will apply to list ourselves on several external exchanges. An Internal Exchange will also be created within our dashboard for users to buy and sell STRU tokens. In the future, BTC, ETH can also be traded. </p>
+                                </div>
 
-	
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="serviceBox">
+                                <div class="service-icon">
+                                    <i class="fa fa-credit-card-alt"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Lending</h3>
+                                    <p>Our lending program has the potential to give you gains of up to 40% per month. You will have the ability to withdraw the daily interest rates during the capital lock period. For detailed info, please refer to the WHITEPAPER. </p>
+                                </div>
 
-		<!-- START COMPANY PARTNER LOGO  -->
-		<section class="partner-logo section-padding">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center" data-aos="fade-up">
-						<div class="section-title">
-							<h2>Targeted Exchanges</h2>
-							<span></span>
-							<p>After the completion of the Structure ICO, we will apply to the following external exchanges as time proceeds.</p>
-						</div>	
-					</div><!-- END COL -->
-				</div><!-- END ROW -->					
-				<div class="row">
-					<div class="col-md-12">
-						<div class="partner  wow fadeInRight">
-							<a href="#"><img src="assets/img/partner/1.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/2.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/3.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/4.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/5.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/6.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/7.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/8.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/9.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/10.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/1.jpg" alt="image"></a>
-							<a href="#"><img src="assets/img/partner/2.jpg" alt="image"></a>
-						</div>
-					</div><!-- END COL  -->
-				</div><!--END  ROW  -->
-			</div><!-- END CONTAINER  -->
-		</section>
-		<!-- END COMPANY PARTNER LOGO -->
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="serviceBox">
+                                <div class="service-icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Referral Program</h3>
+                                    <p>
+                                        Through this program, you have a chance to earn bonus tokens for every person who joins our website and makes a purchase through your referral code. We have 3 levels of bonuses:
+                                        level 1 (@ 5%)
+                                        Level 2 (@ 3%)
+                                        Level 3 (@ 1%).
+                                    </p>
+                                </div>
 
-		
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="serviceBox">
+                                <div class="service-icon">
+                                    <i class="fa fa-barcode"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Structured Network Marketing</h3>
+                                    <p>Spread News, Get Reward! For all you social birds out there, this is the right section for you. We will be rewarding the marketers an additional percentage of their purchased tokens whenever they share a Facebook or Twitter post, share YouTube videos, write blog articles etc. For more info, click the FREE TOKEN tab or click here</p>
+                                </div>
 
-		
-		<!-- START FOOTER TOP -->
-		<section class="footer">
-			<div class="container">
-				<div class="row">					
-					<div class="col-md-6 col-sm-6">
-						<div class="copyright">
-							<p>Copyright &copy; 2017 Structure. All Rights Reserved.</p>
-						</div><!--- END FOOTER COPYRIGHT -->
-					</div><!--- END COL -->			
-					<div class="col-md-6 col-sm-6">
-						<div class="footer_social">
-							<ul>
-								<li><a class="f_facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="f_twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="f_google" href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a class="f_reddit" href="#"><i class="fa fa-reddit"></i></a></li>
-								<li><a class="f_youtube" href="#"><i class="fa fa-bitcoin"></i></a></li>
-								<li><a class="f_skype" href="#"><i class="fa fa-telegram"></i></a></li>
-							</ul>
-						</div>
-					</div><!--- END COL -->			
-				</div><!--- END ROW -->				
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END FOOTER TOP -->		
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="serviceBox">
+                                <div class="service-icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Contests &amp; Giveaways</h3>
+                                    <p>After the ICO ends, we have some unique contests for you that will run for over a year. These contests will take place every 3 months and will give everyone an opportunity to earn free tokens. Only people who are in possession of STRU tokens will be allowed to participate in these contests. For detailed info, please refer to the WHITEPAPER.</p>
+                                </div>
 
-		 
-		<!-- Latest jQuery -->
-			<script src="assets/js/jquery-1.12.4.min.js"></script>
-		<!-- Latest compiled and minified Bootstrap -->
-			<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<!-- modernizer JS -->		
-			<script src="assets/js/modernizr-2.8.3.min.js"></script>
-		
-			
-		<!-- owl-carousel min js  -->
-			<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>				
-		<!-- scrolltopcontrol js -->
-			<script src="assets/js/scrolltopcontrol.js"></script>					
-		<!-- form-contact js -->
-			<script src="assets/js/form-contact.js"></script>			
-		
-		<!-- scripts js -->
-			<script src="assets/js/scripts.js"></script>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="serviceBox">
+                                <div class="service-icon">
+                                    <i class="fa fa-paper-plane-o"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h3>Buy &amp; Sell Products</h3>
+                                    <p>Users will be able to make some extra digital cash for the goods they don’t use. Sell your old stuff by posting an ad on the Structure Marketplace (Coming soon…), and allow buyers to pay for the goods with the BTC/ETH/STRU coins. <br /> For detailed info, please refer to the WHITEPAPER.</p>
+                                </div>
+
+                            </div>
+                        </div><!--- END COL -->
+                    </div><!--- END ROW -->
+                </div><!--- END CONTAINER -->
+            </section>
+            <!-- END SERVICE -->
+            <!-- START RECENT PROJECTS -->
+            <section id="portfolio" class="our_portfolio section-padding">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="section-title">
+                                <h2>Products</h2>
+                                <span></span>
+                                <p><!--Structure Token is .--></p>
+                            </div>
+                        </div><!--- END COL -->
+                    </div><!--- END ROW -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+                            <div class="box">
+                                <img src="assets/img/Products/1-Structure mobile app.png" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">Structure mobile app</h3>
+                                    <!--<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View More</a>-->
+                                    <a href="#">A mobile app (IOS and Android) containing many features to make your lives easy will be released in the future. The STRU tokens will be used to unlock certain features within the app. </a>
+                                </div>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+                            <div class="box">
+                                <img src="assets/img/Products/2-Structure Card.png" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">Structure Card</h3>
+                                    <!--<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View More</a>-->
+                                    <p>A Structure card will be used to make payments at many stores all over the world. This card will be able to store a few coins such as BTC, STRU, ETH, LTC. This will be integrated along with the Structure Marketplace.</p>
+
+                                </div>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+                            <div class="box">
+                                <img src="assets/img/Products/3-Structure Exchange.png" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">Structure Exchange</h3>
+                                    <!--<a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View More</a>-->
+                                    <p style="color:#FFD700;">This will be the place where users can trade all currencies against each other. Users will pay a fee of 0.05% on all trades. This will be a major source of revenue for building the business.</p>
+                                </div>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+                            <div class="box">
+                                <img src="assets/img/Products/4-Structure Marketplace.png" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">Struc/ture Marketplace</h3>
+                                    <a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View More</a>
+                                </div>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+                            <div class="box">
+                                <img src="assets/img/Products/5-Structure portfolio.png" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">Structure Portfolio</h3>
+                                    <a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View More</a>
+                                </div>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-md-4 col-sm-4 col-xs-12 no-padding">
+                            <div class="box">
+                                <img src="assets/img/Products/6-Structure-Bot pic.png" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">Structure-Bot</h3>
+                                    <a href="#" class="read-more" data-toggle="modal" data-target="#projectModal">View More</a>
+                                </div>
+                            </div>
+                        </div><!--- END COL -->
+                        <!-- Overlay Modal  -->
+                        <div class="modal fade" id="projectModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title">Project Overview</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/portfolio/6.jpg" class="img-responsive" alt="" />
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor massa sed velit egestas vulputate. Morbi turpis tellus, porta in cursus at, finibus vitae dui. Nam mollis quam a sem iaculis euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac pharetra justo, vel dapibus tortor. Etiam laoreet imperdiet varius.</p>
+                                        <ul class="list-unstyled project-list">
+                                            <li><label>Client : </label> Themeforest</li>
+                                            <li><label>Category :</label> Web Design</li>
+                                            <li><label>Date : </label> 12 September 2016</li>
+                                            <li><label>Project Url : </label> <a href="#">www.themeforest.net</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                    </div><!--- END ROW -->
+                    <div class="row">
+
+                    </div><!--- END ROW -->
+                </div><!--- END CONTAINER -->
+            </section>
+            <!-- END RECENT PROJECTS -->
+            <!-- START COMPANY PARTNER LOGO  -->
+            <section class="partner-logo section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center" data-aos="fade-up">
+                            <div class="section-title">
+                                <h2>Targeted Exchanges</h2>
+                                <span></span>
+                                <p>After the completion of the Structure ICO, we will apply to the following external exchanges as time proceeds.</p>
+                            </div>
+                        </div><!-- END COL -->
+                    </div><!-- END ROW -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="partner  wow fadeInRight">
+                                <a href="#"><img src="assets/img/Exchanges/1-Yobit.png" alt="image"></a>
+                                <a href="#"><img src="assets/img/Exchanges/2-cryptopia.png" alt="image"></a>
+                                <a href="#"><img src="assets/img/Exchanges/3-coinexchange.png" alt="image"></a>
+                                <a href="#"><img src="assets/img/Exchanges/2ea90511-2a83-49ca-80a3-bce23b727855.jpg" alt="image"></a>
+                                <a href="#"><img src="assets/img/Exchanges/5-bittrex.png" alt="image"></a>
+                                <!--<a href="#"><img src="assets/img/partner/6.jpg" alt="image"></a>
+                            <a href="#"><img src="assets/img/partner/7.jpg" alt="image"></a>
+                            <a href="#"><img src="assets/img/partner/8.jpg" alt="image"></a>
+                            <a href="#"><img src="assets/img/partner/9.jpg" alt="image"></a>
+                            <a href="#"><img src="assets/img/partner/10.jpg" alt="image"></a>
+                            <a href="#"><img src="assets/img/partner/1.jpg" alt="image"></a>
+                            <a href="#"><img src="assets/img/partner/2.jpg" alt="image"></a>-->
+                            </div>
+                        </div><!-- END COL  -->
+                    </div><!--END  ROW  -->
+                </div><!-- END CONTAINER  -->
+            </section>
+            <!-- END COMPANY PARTNER LOGO -->
+            <!-- START FOOTER TOP -->
+            <section class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="copyright">
+                                <p>Copyright &copy; 2017 Structure. All Rights Reserved.</p>
+                            </div><!--- END FOOTER COPYRIGHT -->
+                        </div><!--- END COL -->
+                        <div class="col-md-6 col-sm-6">
+                            <div class="footer_social">
+                                <ul>
+                                    <li><a class="f_facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="f_twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+
+                                    <li><a class="f_reddit" href="#"><i class="fa fa-reddit"></i></a></li>
+                                    <li><a class="f_youtube" href="#"><i class="fa fa-bitcoin"></i></a></li>
+                                    <li><a class="f_skype" href="#"><i class="fa fa-telegram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div><!--- END COL -->
+                    </div><!--- END ROW -->
+                </div><!--- END CONTAINER -->
+            </section>
+            <!-- END FOOTER TOP -->
+            <!-- Latest jQuery -->
+            <script src="assets/js/jquery-1.12.4.min.js"></script>
+            <!-- Latest compiled and minified Bootstrap -->
+            <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+            <!-- modernizer JS -->
+            <script src="assets/js/modernizr-2.8.3.min.js"></script>
+
+
+            <!-- owl-carousel min js  -->
+            <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+            <!-- scrolltopcontrol js -->
+            <script src="assets/js/scrolltopcontrol.js"></script>
+            <!-- form-contact js -->
+            <script src="assets/js/form-contact.js"></script>
+
+            <!-- scripts js -->
+            <script src="assets/js/scripts.js"></script>
+            
+            <!--timeline-->
+            <!--<script src="assets/js/timeline/vertical-timeline.js"></script>-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Resource jQuery -->
+        <script src="assets/timeline/js/main.js"></script>
+        
+           
+            <script>
+                $('#timeline').verticalTimeline();
+            </script>
         <!--knob-->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="assets/js/jquery.classycountdown.min.js"></script>
         <script src="assets/js/jquery.knob.js"></script>
-        <script src="assets/js/jquery.throttle.js"></script>
+        <script src="assets/js/jquery.throttle.js"></script>-->
         <link href="assets/css/jquery.classycountdown.min.css" rel="stylesheet">
-        <!-- jquery flexslider min js -->
-        <script src="assets/js/jquery.flexslider-min.js"></script>			
-        <script>
-            $('.countdown').ClassyCountdown({
-                theme: "white-wide",
-                end: $.now() + 10000
-            });
+            <script>
 
+                
+                
+                //$('.countdown').ClassyCountdown({
+                //    theme: "white-wide",
+                //    end: $.now() + 10000
+                //});
+
+            </script>
+        <!-- jquery flexslider min js -->
+        <script src="assets/js/jquery.flexslider-min.js"></script>
+        <!--clock-->
+
+        <script src="assets/flipclock/flipclock.min.js"></script>
+        <script>
+            //var clock = $('.myClock').FlipClock({
+            //    // ... your options here
+            //});
+            $('.myClock').FlipClock();
         </script>
-    </body>
+</body>
 </html>
