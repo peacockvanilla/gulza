@@ -36,7 +36,12 @@
         <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <!--<link href="assets/css/timeline/vertical-timeline.css" rel="stylesheet" type="text/css" />-->
         <!--flipclock-->
-        <link href="assets/flipclock/flipclock.css" rel="stylesheet" />
+        <!--<link href="assets/flipclock/flipclock.css" rel="stylesheet" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <script src="assets/flipclock/flipclock.js"></script>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.css" />
+
 	</head>
 	
     <body data-spy="scroll" data-offset="80">
@@ -137,9 +142,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="myCLock">
-
-                    </div>
+                    <div class="clock"></div>
+                    <div class="message"></div>
                 </div>
                 <div class="row">
                 <!--<div class="col-md-6 col-sm-6">
@@ -533,11 +537,11 @@
                 $('#timeline').verticalTimeline();
             </script>
         <!--knob-->
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="assets/js/jquery.classycountdown.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!--<script src="assets/js/jquery.classycountdown.min.js"></script>
         <script src="assets/js/jquery.knob.js"></script>
         <script src="assets/js/jquery.throttle.js"></script>-->
-        <link href="assets/css/jquery.classycountdown.min.css" rel="stylesheet">
+        <!--<link href="assets/css/jquery.classycountdown.min.css" rel="stylesheet">-->
             <script>
 
                 
@@ -548,16 +552,14 @@
                 //});
 
             </script>
+       
+        <!--clock-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+        <script>
+            $('.clock').FlipClock();
+        </script>
         <!-- jquery flexslider min js -->
         <script src="assets/js/jquery.flexslider-min.js"></script>
-        <!--clock-->
-
-        <script src="assets/flipclock/flipclock.min.js"></script>
-        <script>
-            //var clock = $('.myClock').FlipClock({
-            //    // ... your options here
-            //});
-            $('.myClock').FlipClock();
-        </script>
 </body>
 </html>
